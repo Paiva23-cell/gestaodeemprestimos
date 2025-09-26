@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H&P CRED | Gestão de Empréstimos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo H&P CRED">
+      <h1>H&P CRED</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Contratos</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Relatórios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Área principal -->
+  <main>
+    <section class="login-box">
+      <h2>Acesse sua Conta</h2>
+      <form>
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario" placeholder="Digite seu usuário" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha" required>
+
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 H&P CRED | Sistema de Gestão de Empréstimos</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
