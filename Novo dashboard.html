@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - H&P CRED</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo H&P CRED">
+      <h1>H&P CRED</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#">Contratos</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Relatórios</a></li>
+        <li><a href="index.html">Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="dashboard">
+    <h1>Painel de Gestão</h1>
+
+    <!-- Cards -->
+    <section class="cards">
+      <div class="card">
+        <h2>Contratos Ativos</h2>
+        <p id="contratos">120</p>
+      </div>
+      <div class="card">
+        <h2>Clientes</h2>
+        <p id="clientes">85</p>
+      </div>
+      <div class="card">
+        <h2>Total Emprestado</h2>
+        <p id="valor">R$ 250.000</p>
+      </div>
+      <div class="card">
+        <h2>Recebimentos</h2>
+        <p id="recebimentos">R$ 75.000</p>
+      </div>
+    </section>
+
+    <!-- Relatórios -->
+    <section class="relatorios">
+      <h2>Últimos Movimentos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Contrato</th>
+            <th>Valor</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maria Silva</td>
+            <td>#1023</td>
+            <td>R$ 5.000</td>
+            <td>Ativo</td>
+          </tr>
+          <tr>
+            <td>João Souza</td>
+            <td>#1024</td>
+            <td>R$ 3.200</td>
+            <td>Pago</td>
+          </tr>
+          <tr>
+            <td>Ana Santos</td>
+            <td>#1025</td>
+            <td>R$ 7.500</td>
+            <td>Em Atraso</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 H&P CRED | Sistema de Gestão de Empréstimos</p>
+  </footer>
+</body>
+</html>
+
